@@ -16,7 +16,7 @@ function todoSubmit(event) {
     event.preventDefault();
     const listCount = document.querySelector("#todo-list").childElementCount;
     if(listCount >= 10) {
-        alert("You can fill our up to 10.");
+        alert("You can fill out up to 10.");
         return;
     }
 
